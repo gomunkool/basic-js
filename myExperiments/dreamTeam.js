@@ -18,8 +18,9 @@ function createDreamTeam(name) {
   }
 
   let sortWords = words.sort();
+  let sortToString = sortWords.join("");
 
-  return sortWords;
+  return sortToString;
 }
 
 console.log(
