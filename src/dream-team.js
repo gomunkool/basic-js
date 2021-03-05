@@ -23,5 +23,7 @@ module.exports = function createDreamTeam(name) {
     let sortToString = sortWords.join("");
 
     return sortToString;
+  } else {
+    return false;
   }
 };
